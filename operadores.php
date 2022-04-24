@@ -1,0 +1,59 @@
+
+<!-- tags PHP -->
+
+
+<!-- tag padrão: < ?php código aqui? >-->
+<!-- tag de impressão < ?= código aqui? >
+tag curta < ? código aqui? > desabilitada
+*Asp tag < % código aqui % > Descontinuada na versão 7 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Curso PHP</title>
+
+
+</head>
+
+
+<body>
+
+	<?php 
+
+
+	// == igual
+	// === idêntico
+	// != diferente
+	// <> diferentes
+	// !== não idêntico, se são diferentes e de tipos diferentes
+	// < valor menor a algo 
+	// > valor maior a algo 
+	// <= menor ou igual que 
+	// >= maior ou igual que 
+
+	?>
+
+
+	<h1>Ficha</h1>
+<div>
+	<!-- <br>
+	<p>Nome: <?= $nome ?></p>
+	<p>Idade: <?= $idade ?></p>
+	<p>Altura: <?= $altura ?></p>
+	<p>Fumante: <?= $fumante ?></p> -->
+
+</div>
+	
+	
+
+	
+
+
+</body>
+
+
+</html>

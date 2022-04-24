@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+	padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #10131c;
+}
+label {
+    display: block;
+}
+
+.icon {
+    display: inline;
+    font-size: 120px;
+    margin: 0px 0px 0px 136px;
+}
+
+input {
+    display: block;
+    width: 250px;
+    height: 30px;
+    background-color:  #cae6c6 ;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+    border: none;
+}
+
+input:active{
+   border: none;
+}
+
+
+.login {
+    background: white;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+
+.form {
+    padding: 0px 25px 40px 70px;
+}
+
+#signup {
+    font-size: 10px;
+    /*margin-left: 50px;*/
+    text-align: center;
+    display: block;
+}
+
+#signup a {
+    text-decoration: none;
+    color: black;
+}
+
+#signup a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.cadastro {
+    background: white;
+    width: 500px;
+    height: 700px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 100px 20px 200px 100px;
+}
+
+.cadastro input {
+    margin-bottom: 30px;
+    padding: 10px;
+
+}
+
+.radio {
+   width: 20px;
+   margin-right: 10px;
+   margin-top: 2px;
+   display: inline;
+}
+
+.term {
+    display: inline;
+    font-size: 13px;
+}
